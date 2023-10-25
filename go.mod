@@ -11,8 +11,8 @@ require (
 	github.com/onsi/gomega v1.20.0
 	github.com/prometheus/client_golang v1.13.0
 	github.com/prometheus/client_model v0.2.0
-	golang.org/x/net v0.0.0-20220722155237-a158d28d115b
-	golang.org/x/sys v0.0.0-20220818161305-2296e01440c6
+	golang.org/x/net v0.17.0
+	golang.org/x/sys v0.13.0
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8
 	google.golang.org/grpc v1.49.0
 	k8s.io/api v0.24.2
@@ -64,3 +64,7 @@ replace github.com/spf13/pflag => github.com/spf13/pflag v1.0.5
 replace github.com/docker/docker => github.com/moby/moby v0.7.3-0.20190826074503-38ab9da00309 // Required by Helm
 
 replace github.com/prometheus/prometheus => github.com/prometheus/prometheus v0.0.0-20190424153033-d3245f150225
+
+replace github.com/openshift/api => github.com/openshift/api v0.0.0-20211217221424-8779abfbd571
+
+replace vbom.ml/util => github.com/fvbommel/util v0.0.0-20180919145318-efcd4e0f9787
